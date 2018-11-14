@@ -17,6 +17,13 @@ cd project-name
 yarn install
 ```
 
+Check that everything works, see below. Once happy, re-initialise Git for your project:
+
+```
+rm -rf .git
+git init
+```
+
 ## Checking it works
 
 Run the test to make sure everything installed and is hooked up correctly:
